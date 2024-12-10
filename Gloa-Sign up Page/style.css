@@ -1,0 +1,441 @@
+.sign-up,
+.sign-up * {
+  box-sizing: border-box;
+}
+.sign-up {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 20px; /* Add padding to avoid overflow */
+  width: 100%;
+  max-width: 440px; /* Ensure responsiveness */
+  margin: 0 auto; /* Center the sign-up form */
+  position: relative;
+}
+.gradient {
+  width: 440px;
+  height: 956px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.sign-up2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Nunito-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 104px;
+  top: 110px;
+  width: 238px;
+  height: 71.35px;
+}
+.thrive-on-your-own-terms-create-an-account {
+  color: #000000;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%; /* Adjusted width to prevent overflow */
+  margin: 0 auto; /* Centers the element horizontally */
+  position: absolute;
+  top: 181px;
+  left: 50%; /* Start positioning from the center */
+  transform: translateX(-50%); /* Centers the element */
+  word-wrap: break-word; /* Ensures long text wraps */
+  overflow-wrap: break-word; /* Additional wrapping control */
+}
+
+.thrive-on-your-own-terms-create-an-account-span {
+  color: #000000;
+  font-family: "NunitoSans-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+.thrive-on-your-own-terms-create-an-account-span2 {
+  color: #000000;
+  font-family: "NunitoSans-ExtraLight", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+}
+.frame-1000001912 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  row-gap: 21px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 392px;
+  position: absolute;
+  left: 27px;
+  top: 268px;
+}
+.first-name-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.input {
+  color: #091e2b;
+  text-align: right;
+  font-family: "Nunito-Light", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.last-name-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.last-name {
+  color: #091e2b;
+  text-align: right;
+  font-family: "Nunito-Light", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  position: relative;
+}
+.email-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.phone-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 392px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.password-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 10px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  width: 392px;
+  height: 48px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.eye {
+  flex-shrink: 0;
+  width: 44px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.confirm-password-text-field {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  flex-shrink: 0;
+  width: 392px;
+  height: 48px;
+  position: relative;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.confirm-password {
+  color: #091e2b;
+  text-align: right;
+  font-family: "Nunito-Light", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+  position: absolute;
+  left: 24px;
+  top: 16px;
+}
+.eye2 {
+  width: 44px;
+  height: 24px;
+  position: absolute;
+  left: 339px;
+  top: 12px;
+  object-fit: cover;
+}
+.footer {
+  border-radius: 0px 0px 15px 15px;
+  width: 440px;
+  height: 80px;
+  position: absolute;
+  left: 0px;
+  top: 876px;
+  box-shadow: var(
+    --gloa-shadow-box-shadow,
+    0px 0.5px 8px 0px rgba(187, 209, 183, 1)
+  );
+}
+.rectangle-3850 {
+  background: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.frame-1000001866 {
+  display: flex;
+  flex-direction: row;
+  gap: 72px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: calc(50% - 115.38px);
+  top: 22px;
+}
+.home {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.vector {
+  width: 16.67%;
+  height: 33.33%;
+  position: absolute;
+  right: 41.67%;
+  left: 41.67%;
+  bottom: 12.5%;
+  top: 54.17%;
+  overflow: visible;
+}
+.group {
+  width: 83.33%;
+  height: 81.25%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 10.42%;
+  top: 8.33%;
+  overflow: visible;
+}
+.home2 {
+  color: #acacac;
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 17px);
+  bottom: -46.88%;
+  top: 96.88%;
+  height: 50%;
+}
+.calendar {
+  flex-shrink: 0;
+  width: 27.65px;
+  height: 30px;
+  position: relative;
+}
+.vector2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  overflow: visible;
+}
+.calendar2 {
+  color: #acacac;
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 24.82px);
+  bottom: -56.67%;
+  top: 103.33%;
+  height: 53.33%;
+}
+.profile {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+}
+.vector3 {
+  width: 85.71%;
+  height: 85.71%;
+  position: absolute;
+  right: 7.14%;
+  left: 7.14%;
+  bottom: 3.57%;
+  top: 10.71%;
+  overflow: visible;
+}
+.profile2 {
+  color: #acacac;
+  text-align: center;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  right: -17.86%;
+  left: -14.29%;
+  width: 132.14%;
+  bottom: -67.86%;
+  top: 110.71%;
+  height: 57.14%;
+}
+.header {
+  width: 440px;
+  height: 96px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.m-header {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.rectangle-38502 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.frame-1000001857 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 389px;
+  position: absolute;
+  left: calc(50% - 194px);
+  bottom: 12px;
+}
+.mask-group {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.mask-group2 {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  overflow: visible;
+}
+.i-os-icon-status-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 14.77%;
+  height: 16.67%;
+  position: absolute;
+  right: 5.45%;
+  left: 79.77%;
+  bottom: 65.62%;
+  top: 17.71%;
+}
+.i-os-icon-small-mobile-signal {
+  flex-shrink: 0;
+  width: 20px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.i-os-icon-small-wifi {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.i-os-icon-small-battery {
+  flex-shrink: 0;
+  width: 25px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.primary {
+  background: #48a3fe;
+  border-radius: 15px;
+  padding: 16px 24px 16px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  width: 248px;
+  position: absolute;
+  left: 99px;
+  top: 739px;
+  box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+}
+.secondary-button {
+  color: var(--g-white, #f6f8fa);
+  text-align: right;
+  font-family: "Nunito-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+@media (max-width: 600px) {
+  .thrive-on-your-own-terms-create-an-account {
+    font-size: 16px; /* Reduce font size for smaller screens */
+    top: 150px; /* Adjust spacing */
+  }
+}

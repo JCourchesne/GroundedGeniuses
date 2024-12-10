@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+.goals-assessments {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .goals-assessments .overlap-wrapper {
+    background-color: #ffffff;
+    width: 440px;
+    height: 956px;
+  }
+  
+  .goals-assessments .overlap {
+    position: relative;
+    height: 956px;
+    background-image: url(Images/gradient0.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .goals-assessments .text-wrapper {
+    position: relative;
+    width: 392px;
+    height: 36px;
+    flex-shrink: 0;
+    top: 115px;
+    left: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .goals-assessments .frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 392px;
+    height: 552px;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 48px 20px;
+    position: absolute;
+    top: 262px;
+    left: 24px;
+  }
+  .goals-assessments .primary-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Adjust alignment if needed */
+    gap: 20px; /* Adjust spacing between "Stress" and the button */
+    width: 100%; /* Optional: make it full width */
+  }
+  .goals-assessments .primary {
+    display: flex;
+    width: 186px;
+    gap: 24px;
+    background-color: #ffffff;
+    align-items: center;
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0.5px 8px #bbd0b6;
+    
+  }
+  .goals-assessments .primary-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Adjust alignment if needed */
+  gap: 20px; /* Adjust spacing between "Stress" and the button */
+  width: 100%; /* Optional: make it full width */
+}
+  .goals-assessments .checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: var(--g-grey);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #959595;
+  }
+  
+  .goals-assessments .SELECTION {
+    position: relative;
+    width: fit-content;
+    margin-top: -3.00px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #091d2a;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .goals-assessments .SECONDARY-button-wrapper {
+    display: inline-flex;
+    width: 186px;
+    height: 52px;
+    gap: 32px;
+    background-color: #ffffff80;
+    border: 4px solid;
+    border-color: #ffffff;
+    align-items: center;
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0.5px 8px #bbd0b6;
+  }
+  
+  .goals-assessments .SECONDARY-button {
+    position: relative;
+    width: 137px;
+    margin-top: -10.00px;
+    margin-bottom: -8.00px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #091d2a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .goals-assessments .div-wrapper {
+    display: inline-flex;
+    height: 52px;
+    gap: 32px;
+    flex: 0 0 auto;
+    background-color: #ffffff80;
+    border: 4px solid;
+    border-color: #ffffff;
+
+    padding: 16px 24px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0.5px 8px #bbd0b6;
+  }
+  
+  .goals-assessments .div {
+    margin-right: -2.00px;
+    position: relative;
+    width: fit-content;
+    margin-top: -3.00px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #091d2a;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .goals-assessments .footer {
+    position: absolute;
+    width: 440px;
+    height: 80px;
+    top: 876px;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: var(--gloa-shadow);
+  }
+  
+  .goals-assessments .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 72px;
+    position: relative;
+    top: 22px;
+    left: 105px;
+  }
+  
+  .goals-assessments .home {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    background-image: url(Images/Home.svg);
+    background-size: 100% 100%;
+  }
+  
+  .goals-assessments .vector {
+    position: absolute;
+    width: 5px;
+    height: 11px;
+    top: -3583px;
+    left: 344px;
+  }
+  
+  .goals-assessments .group {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    top: 2px;
+    left: 2px;
+  }
+  
+  .goals-assessments .text-wrapper-2 {
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #acacac;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .goals-assessments .calendar {
+    position: relative;
+    width: 27.65px;
+    height: 30px;
+    background-image: url(Images/Calendar.svg);
+    background-size: 100% 100%;
+  }
+  
+  .goals-assessments .text-wrapper-3 {
+    position: absolute;
+    top: 30px;
+    left: -11px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #acacac;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .goals-assessments .profile {
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .goals-assessments .img {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 3px;
+    left: 2px;
+  }
+  
+  .goals-assessments .text-wrapper-4 {
+    position: absolute;
+    top: 30px;
+    left: -4px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #acacac;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .goals-assessments .header {
+    position: absolute;
+    width: 440px;
+    height: 96px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  
+  .goals-assessments .overlap-group {
+    position: relative;
+    width: 440px;
+    height: 96px;
+    border-radius: 15px;
+  }
+  
+  .goals-assessments .m-header {
+    position: absolute;
+    width: 440px;
+    height: 96px;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+  }
+  
+  .goals-assessments .frame-3 {
+    display: flex;
+    width: 389px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 44px;
+    left: 26px;
+  }
+  
+  .goals-assessments .mask-group {
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .goals-assessments .ios-icon-status-bar {
+    display: flex;
+    width: 65px;
+    height: 16px;
+    align-items: flex-start;
+    gap: 2px;
+    position: absolute;
+    top: 17px;
+    left: 351px;
+  }
+  
+  .goals-assessments .ios-icon-small {
+    position: relative;
+    width: 20px;
+    height: 16px;
+  }
+  
+  .goals-assessments .icon {
+    width: 17px;
+    left: 1px;
+    position: absolute;
+    height: 11px;
+    top: 3px;
+  }
+  
+  .goals-assessments .ios-icon-small-wifi {
+    width: 16px;
+    position: relative;
+    height: 16px;
+  }
+  
+  .goals-assessments .icon-2 {
+    width: 15px;
+    left: 0;
+    position: absolute;
+    height: 11px;
+    top: 3px;
+  }
+  
+  .goals-assessments .ios-icon-small-2 {
+    width: 25px;
+    position: relative;
+    height: 16px;
+  }
+  
+  .goals-assessments .next-button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 852px;
+    left: 362px;
+  }
+
+  .goals-assessments .skip-button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 852px;
+    left: 24px;
+  }
+  
+  .goals-assessments .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--paragraph-2-medium-font-family);
+    font-weight: var(--paragraph-2-medium-font-weight);
+    color: var(--g-black);
+    font-size: var(--paragraph-2-medium-font-size);
+    letter-spacing: var(--paragraph-2-medium-letter-spacing);
+    line-height: var(--paragraph-2-medium-line-height);
+    font-style: var(--paragraph-2-medium-font-style);
+  }
+  
+  .goals-assessments .vector-2 {
+    position: relative;
+    width: 7.67px;
+    height: 14.33px;
+    margin-right: -0.50px;
+  }

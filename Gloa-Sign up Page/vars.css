@@ -1,0 +1,55 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --g-black: #091e2b;
+  --g-white: #f6f8fa;
+  --g-grey: #e9ecef;
+  --g-blue: #c9e4ff;
+  --g-green: #dbefd7;
+  --g-yellow: #fff5c3;
+  --g-pure-white: #ffffff;
+  --g-grain: undefined;
+  --g-blue-dark: #48a3fe;
+  --g-grain-mid: undefined;
+  --g-landing: linear-gradient(
+    180deg,
+    rgba(134, 194, 255, 1) 0%,
+    rgba(248, 251, 255, 1) 100%
+  );
+
+  /* Fonts */
+  --paragraph-2-bold-font-family: Nunito-Bold, sans-serif;
+  --paragraph-2-bold-font-size: 18px;
+  --paragraph-2-bold-line-height: 20px;
+  --paragraph-2-bold-font-weight: 700;
+  --paragraph-2-bold-font-style: normal;
+  --paragraph-2-semi-bold-font-family: Nunito-SemiBold, sans-serif;
+  --paragraph-2-semi-bold-font-size: 18px;
+  --paragraph-2-semi-bold-line-height: 20px;
+  --paragraph-2-semi-bold-font-weight: 600;
+  --paragraph-2-semi-bold-font-style: normal;
+  --paragraph-2-light-font-family: Nunito-Light, sans-serif;
+  --paragraph-2-light-font-size: 18px;
+  --paragraph-2-light-line-height: 20px;
+  --paragraph-2-light-font-weight: 300;
+  --paragraph-2-light-font-style: normal;
+  --heading-4-font-family: Nunito-Regular, sans-serif;
+  --heading-4-font-size: 24px;
+  --heading-4-line-height: normal;
+  --heading-4-font-weight: 400;
+  --heading-4-font-style: normal;
+  --heading-4-bold-font-family: Nunito-Bold, sans-serif;
+  --heading-4-bold-font-size: 24px;
+  --heading-4-bold-line-height: normal;
+  --heading-4-bold-font-weight: 700;
+  --heading-4-bold-font-style: normal;
+  --paragraph-2-medium-font-family: Nunito-Medium, sans-serif;
+  --paragraph-2-medium-font-size: 18px;
+  --paragraph-2-medium-line-height: normal;
+  --paragraph-2-medium-font-weight: 500;
+  --paragraph-2-medium-font-style: normal;
+
+  /* Effects */
+  --gloa-shadow-box-shadow: 0px 0.5px 8px 0px rgba(187, 209, 183, 1);
+  --card-internal-shadow-box-shadow: 0px 1px 5.7px 0px rgba(0, 0, 0, 0.15);
+}
